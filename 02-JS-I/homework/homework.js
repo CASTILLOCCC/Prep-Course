@@ -298,32 +298,6 @@ function esVocal(letra){
   }
 }
 
-function familia (nieto) 
-{
-  // var nieto = ("Isabella", "Juan", "Pablo", "Jacobo", "Nicolas", "Matias")
-  var papasIsabelaJuan = "Andrés" + " ";+ "Claudia";
-  var papasMatias = "Claudia" + " " + "Julian";
-  var papasJaconico = "Camilo" + " " + "Ximena";
-  var noNieto = "NoNieto";
-  var resouesta ="";
-    if (nieto == "Isabella" || nieto == "Juan")
-    {
-     resouesta =  papasIsabelaJuan;
-    }
-    else if (nieto == "Pablo" || nieto == "Jacobo" || nieto == "Nicolas")
-    {
-      resouesta = papasJaconico;
-    }
-    else if (nieto == "Matias")
-    {
-      resouesta = papasMatias;
-    }
-     else
-     {
-      resouesta = noNieto;
-     }
-    return resouesta;
-}
 
 
 // No modificar nada debajo de esta línea
